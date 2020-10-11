@@ -20,7 +20,6 @@ body {
   font-size: 30px;
   color: white;
   height: 100%;
-  /* line-height: 1.3; */
 }
 
 header {
@@ -28,7 +27,6 @@ header {
   font-size: 16px;
   color: #FFF;
   height: 50px;
-  /* border: 1px solid red  debug */
 }
 
 nav {
@@ -59,6 +57,18 @@ h1 {
 }
 
 .container-management li {
+  padding: 10px;
+}
+
+.container-about-me {
+  display: block;
+  padding: 20px;
+  background-color: #4d4d4d;
+  opacity: 80%;
+}
+
+.container-about-me li {
+  font-size: 20px;
   padding: 10px;
 }
 
@@ -95,8 +105,6 @@ h1 {
   width: 100%;
   min-width: 100%;
   height: 820px;
-  /*height: 600px;*/
-  /*background-color: #96999C;*/
 }
 
 .background-home-page {
@@ -109,21 +117,18 @@ h1 {
 .background-management {
   background: url(management.jpg) no-repeat;
   background-size: cover;
-  /*display:inline-block;*/
   background-position: center;
 }
 
 .background-partnership {
   background: url(partnership.jpg) no-repeat;
   background-size: cover;
-  /*display:inline-block;*/
   background-position: center;
 }
 
 .background-about-me {
   background: url(about-me.jpg) no-repeat;
   background-size: cover;
-  /*display:inline-block;*/
   background-position: center;
 }
 
@@ -134,7 +139,6 @@ h1 {
       width: 100%;
       min-width: 100%;
       height: 650px;
-      /*height: 600px;*/
       background-color: #96999C;
     }
     .background-home-page {
@@ -146,13 +150,11 @@ h1 {
     .background-management {
       background: url(management-tablet.jpg) no-repeat;
       background-size: cover;
-      /*display:inline-block;*/
       background-position: center;
     }
     .background-patnership {
       background: url(patnership-tablet.jpg) no-repeat;
       background-size: cover;
-      /*display:inline-block;*/
       background-position: center;
     }
     .background-about-me {
@@ -169,6 +171,10 @@ h1 {
     }
     .container-management li {
       padding: 7px;
+    }
+    .container-about-me li {
+      font-size: 14px;
+      padding: 8px;
     }
     .big-text {
       margin-top: 20px;
@@ -196,7 +202,6 @@ h1 {
     width: 100%;
     min-width: 100%;
     height: 650px;
-    /*height: 600px;*/
     background-color: #96999C;
   }
   .background-home-page {
@@ -232,6 +237,10 @@ h1 {
   .container-management li {
     padding: 5px;
   }
+  .container-about-me li {
+    font-size: 13px;
+    padding: 5px;
+  }
   .big-text {
     margin-top: 20px;
     font-size: 40px;
@@ -258,7 +267,6 @@ h1 {
     width: 100%;
     min-width: 100%;
     height: 650px;
-    /*height: 600px;*/
     background-color: #96999C;
   }
   .background-home-page {
@@ -275,6 +283,10 @@ h1 {
     font-size: 17px;
   }
   .container-management li {
+    padding: 4px;
+  }
+  .container-about-me li {
+    font-size: 11px;
     padding: 4px;
   }
   .big-text {
@@ -304,7 +316,6 @@ h1 {
     width: 100%;
     min-width: 100%;
     height: 650px;
-    /*height: 600px;*/
     background-color: #96999C;
   }
   .background-home-page {
@@ -323,6 +334,10 @@ h1 {
   .container-management li {
     padding: 4px;
   }
+  .container-about-me li {
+    font-size: 10px;
+    padding: 3px;
+  }
   .big-text {
     margin-top: 20px;
     font-size: 30px;
@@ -339,26 +354,3 @@ h1 {
     padding: 3px;
   }
 }
-
-/*  ------ FINE PER SMARTPHONE ------ */
-
-
-/* ------ INIZIO PER DESKTOP ------
-@media only screen and (max-width: 1200px)
-
-   ------ FINE PER DESKTOP ------
-*/
-
-
-/* ------ INIZIO PER TABLET E LAPTOP ------
-@media only screen and (min-width: 769px) and (max-width: 960px)
-
-   ------ FINE PER TABLET E LAPTOP ------
-*/
-
-
-/* ------ INIZIO PER TABLET ------
-@media only screen and (min-width: 577px) and (max-width: 768px)
-
-   ------ FINE PER TABLET ------
-*/
