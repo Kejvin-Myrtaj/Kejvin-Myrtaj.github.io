@@ -64,7 +64,7 @@ h1 {
   display: block;
   padding: 20px;
   background-color: #4d4d4d;
-  opacity: 80%;
+  opacity: 70%;
 }
 
 .container-about-me li {
@@ -107,6 +107,9 @@ h1 {
   height: 820px;
 }
 
+.text-grey {
+  color: #4d4d4d;
+}
 .background-home-page {
   background: url(clienti.jpg) no-repeat;
   background-size: cover;
@@ -127,7 +130,7 @@ h1 {
 }
 
 .background-about-me {
-  background: url(about-me.jpg) no-repeat;
+  background: url(Presentazione.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -155,12 +158,6 @@ h1 {
     .background-patnership {
       background: url(patnership-tablet.jpg) no-repeat;
       background-size: cover;
-      background-position: center;
-    }
-    .background-about-me {
-      background: url(about-me-tablet.jpg) no-repeat;
-      background-size: cover;
-      /*display:inline-block;*/
       background-position: center;
     }
     .container-partnership h1 {
@@ -220,12 +217,6 @@ h1 {
     background: url(partnership-tablet.jpg) no-repeat;
     background-size: cover;
     display:inline-block;
-    background-position: center;
-  }
-  .background-about-me {
-    background: url(about-me.jpg) no-repeat;
-    background-size: cover;
-    /*display:inline-block;*/
     background-position: center;
   }
   .container-partnership h1 {
