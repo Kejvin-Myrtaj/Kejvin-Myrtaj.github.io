@@ -1,0 +1,364 @@
+@font-face {
+      font-style: 'calibri';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav a:link,
+nav a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #b3b3b3;
+}
+body {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  height: 100%;
+  /* line-height: 1.3; */
+}
+
+header {
+  text-align: center;
+  font-size: 16px;
+  color: #FFF;
+  height: 50px;
+  /* border: 1px solid red  debug */
+}
+
+nav {
+  background-color: #54575A;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: left;
+  height: 50px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3px;
+}
+
+nav li {
+  list-style-type: none;
+
+  width: 50%;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-left: 5px;
+}
+
+.container-management li {
+  padding: 10px;
+}
+
+.container-partnership p {
+  padding: 20px;
+}
+
+.container-management {
+  width: 50%;
+  align: left;
+}
+
+.container-partnership {
+  text-align: center;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.big-text {
+  font-size: 70px;
+  text-align: center;
+  margin: 90px;
+  color: white;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  min-width: 100%;
+  height: 820px;
+  /*height: 600px;*/
+  /*background-color: #96999C;*/
+}
+
+.background-home-page {
+  background: url(clienti.jpg) no-repeat;
+  background-size: cover;
+  display:inline-block;
+  background-position: center;
+}
+
+.background-management {
+  background: url(management.jpg) no-repeat;
+  background-size: cover;
+  /*display:inline-block;*/
+  background-position: center;
+}
+
+.background-partnership {
+  background: url(partnership.jpg) no-repeat;
+  background-size: cover;
+  /*display:inline-block;*/
+  background-position: center;
+}
+
+.background-about-me {
+  background: url(about-me.jpg) no-repeat;
+  background-size: cover;
+  /*display:inline-block;*/
+  background-position: center;
+}
+
+
+/* ------ INIZIO PER TABLET E LAPTOP ------ */
+  @media only screen and (min-width: 769px) and (max-width: 960px) {
+    .section {
+      width: 100%;
+      min-width: 100%;
+      height: 650px;
+      /*height: 600px;*/
+      background-color: #96999C;
+    }
+    .background-home-page {
+      background: url(clienti-tablet.jpg) no-repeat;
+      background-size: cover;
+      display:inline-block;
+      background-position: center;
+    }
+    .background-management {
+      background: url(management-tablet.jpg) no-repeat;
+      background-size: cover;
+      /*display:inline-block;*/
+      background-position: center;
+    }
+    .background-patnership {
+      background: url(patnership-tablet.jpg) no-repeat;
+      background-size: cover;
+      /*display:inline-block;*/
+      background-position: center;
+    }
+    .background-about-me {
+      background: url(about-me-tablet.jpg) no-repeat;
+      background-size: cover;
+      /*display:inline-block;*/
+      background-position: center;
+    }
+    .container-partnership h1 {
+      font-size: 40px;
+    }
+    .container-management {
+      font-size: 22px;
+    }
+    .container-management li {
+      padding: 7px;
+    }
+    .big-text {
+      margin-top: 20px;
+      font-size: 50px;
+      text-align: center;
+      margin: 90px;
+      color: white;
+    }
+    nav {
+      font-size: 16px;
+    }
+    nav li {
+      margin: 0 auto;
+      margin-top: 8px;
+      padding: 3px;
+    }
+  }
+
+/* ------ FINE PER TABLET E LAPTOP ------ */
+
+
+/* ------ INIZIO PER TABLET ------ */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .section {
+    width: 100%;
+    min-width: 100%;
+    height: 650px;
+    /*height: 600px;*/
+    background-color: #96999C;
+  }
+  .background-home-page {
+    background: url(clienti-tablet.jpg) no-repeat;
+    background-size: cover;
+    display:inline-block;
+    background-position: center;
+  }
+  .background-management {
+    background: url(management-tablet.jpg) no-repeat;
+    background-size: cover;
+    display:inline-block;
+    background-position: center;
+  }
+  .background-partnership {
+    background: url(partnership-tablet.jpg) no-repeat;
+    background-size: cover;
+    display:inline-block;
+    background-position: center;
+  }
+  .background-about-me {
+    background: url(about-me.jpg) no-repeat;
+    background-size: cover;
+    /*display:inline-block;*/
+    background-position: center;
+  }
+  .container-partnership h1 {
+    font-size: 30px;
+  }
+  .container-management {
+    font-size: 20px;
+  }
+  .container-management li {
+    padding: 5px;
+  }
+  .big-text {
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin: 90px;
+    color: white;
+  }
+  nav {
+    font-size: 16px;
+  }
+  nav li {
+    margin: 0 auto;
+    margin-top: 8px;
+    padding: 3px;
+  }
+}
+
+/* ------ FINE PER TABLET ------ */
+
+
+/* ------ INIZIO PER NOTEPAD ------ */
+@media only screen and (min-width: 401px) and (max-width: 576px) {
+  .section {
+    width: 100%;
+    min-width: 100%;
+    height: 650px;
+    /*height: 600px;*/
+    background-color: #96999C;
+  }
+  .background-home-page {
+    background: url(clienti-tablet.jpg) no-repeat;
+    background-size: cover;
+    display:inline-block;
+    background-position: center;
+  }
+  .container-partnership h1 {
+    font-size: 25px;
+    padding: 10px;
+  }
+  .container-management {
+    font-size: 17px;
+  }
+  .container-management li {
+    padding: 4px;
+  }
+  .big-text {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 90px;
+    color: white;
+  }
+  nav {
+    font-size: 12px;
+  }
+  nav li {
+    margin: 0 auto;
+    margin-top: 12px;
+    padding: 3px;
+  }
+}
+
+/* ------ FINE PER NOTEPAD ------ */
+
+
+/* ------ INIZIO PER SMARTPHONE ------ */
+
+@media only screen and (max-width: 400px) {
+  .section {
+    width: 100%;
+    min-width: 100%;
+    height: 650px;
+    /*height: 600px;*/
+    background-color: #96999C;
+  }
+  .background-home-page {
+    background: url(clienti-tablet.jpg) no-repeat;
+    background-size: cover;
+    display:inline-block;
+    background-position: center;
+  }
+  .container-partnership h1 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .container-management {
+    font-size: 16px;
+  }
+  .container-management li {
+    padding: 4px;
+  }
+  .big-text {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 70px;
+    color: white;
+  }
+  nav {
+    font-size: 12px;
+  }
+  nav li {
+    margin: 0 auto;
+    margin-top: 12px;
+    padding: 3px;
+  }
+}
+
+/*  ------ FINE PER SMARTPHONE ------ */
+
+
+/* ------ INIZIO PER DESKTOP ------
+@media only screen and (max-width: 1200px)
+
+   ------ FINE PER DESKTOP ------
+*/
+
+
+/* ------ INIZIO PER TABLET E LAPTOP ------
+@media only screen and (min-width: 769px) and (max-width: 960px)
+
+   ------ FINE PER TABLET E LAPTOP ------
+*/
+
+
+/* ------ INIZIO PER TABLET ------
+@media only screen and (min-width: 577px) and (max-width: 768px)
+
+   ------ FINE PER TABLET ------
+*/
